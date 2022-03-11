@@ -1,0 +1,28 @@
+1. C# console Util: Импорт img -> json / all categ
+a) Enter categ + folder => output file
+b) enter json + mergeTo => merged json (union)
+
+categories:
+1. Боровики
+2. Другие грибы
+3. Дороги, перекрестки
+4. Разное (+test)
+
+
+2. Special "test" category
+3. Web app displaying map + json dots: react + ?leaflet?
+4. React-native app -> map + ?leaflet? json dots
+5. React-native with navigator - my current location
+6. Put to git "json"
+--- 
+json structure
+{
+id, /* datetime seconds will be id */ 
+datetime, 
+year, /* from date */
+
+lat,
+lon,
+alt,
+category, /* number */
+}
